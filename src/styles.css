@@ -1,0 +1,28 @@
+/* Reset default browser styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Simple, clean styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, main, footer {
+    padding: 1em;
+    max-width: 800px;
+    margin: auto;
+}
+
+header {
+    background-color: #f0f0f0;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+}
